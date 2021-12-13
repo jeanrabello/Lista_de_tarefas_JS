@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    background-color: rgb(62, 122, 62);
+    height: 100vh;
+    text-align: center;
+}
+
+.ListBody {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(41, 26, 19);
+    border-radius: 15px;
+}
+
+.ListContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 650px;
+    color: white;
+}
+
+.ListBody .ListContent .ListTop {
+    font-size: 15px;
+    color: white;
+}
+
+.ListBody .ListContent .BG_tasks {
+    width: 450px;
+    height: 580px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ListBody .ListContent .ListTop #tarefa{
+    border-radius: 5px;
+    border-color: black;
+    width: 300px
+}
+
+.BG_tasks .tasks #list {
+    width: 350px;
+    height: 480px;
+    color: black;
+    list-style: none;
+    text-align: left;
+    padding: 50px;
+}
+.tasks #list #item{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.tasks #list #item img {
+    width: 20px;
+    height: 20px;
+    text-align: right;
+}
+
+
+
+
+
